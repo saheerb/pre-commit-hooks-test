@@ -4,6 +4,7 @@
   language: system
   files: \.(h\+\+|h|hh|hxx|hpp|cuh|c|cc|cpp|cu|c\+\+|cxx|tpp|txx)$
   entry: clang-format -i
+  args: [-style=file:clang-format-style]
 
 - id: cpplint
   name: cpplint
